@@ -2,10 +2,14 @@ ORAN_MODULE_DIR="/usr/local/share/yang/modules/netopeer2/oran_yang_model"
 INSTALLER_DIR=$PWD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 apt-get update && apt-get install -y openssl libssl-dev vim python3-pip libpcre2-8-0 libpcre2-dev
 pip3 install pyang
 =======
 apt-get update && apt-get install -y openssl libssl-dev vim python3-dev
+=======
+apt-get update && apt-get install -y openssl libssl-dev vim python3-pip
+>>>>>>> Update install.sh
 pip install pyang
 >>>>>>> yang-models-installation
 
