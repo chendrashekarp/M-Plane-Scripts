@@ -66,7 +66,6 @@ MODULES=(
 "mplane-rpcs@2021-06-21.yang"
 "o-ran-ald-port@2019-07-03.yang"
 "o-ran-ald@2019-07-03.yang"
-"o-ran-fan@2019-07-03.yang"
 "o-ran-ves-subscribed-notifications@2020-12-10.yang"
 "iana-if-type@2017-01-19.yang"
 "o-ran-interfaces@2020-12-10.yang"
@@ -81,14 +80,17 @@ MODULES=(
 "o-ran-delay-management@2020-08-10.yang"
 "o-ran-supervision@2020-12-10.yang"
 "o-ran-fan@2019-07-03.yang"
-"o-ran-operations@2020-12-10.yang"
 "o-ran-performance-management@2020-12-10.yang"
 "o-ran-laa-operations@2019-07-03.yang"
 "o-ran-sync@2020-08-10.yang"
 "o-ran-laa@2019-07-03.yang"
 "o-ran-software-management@2019-07-03.yang"
 "o-ran-uplane-conf@2020-12-10.yang"
+<<<<<<< HEAD
 >>>>>>> yang-models-installation
+=======
+"o-ran-fan@2019-07-03.yang"
+>>>>>>> added raise alarm with simple adding alarm list & notififcation sending & before upgrading packages for delete list-instance bug
 )
 
 # functions
