@@ -91,8 +91,11 @@ MODULES=(
 >>>>>>> added raise alarm with simple adding alarm list & notififcation sending & before upgrading packages for delete list-instance bug
 =======
 "o-ran-fm@2019-02-04.yang"
+<<<<<<< HEAD
 "o-ran-laa@2019-07-03.yang"
 >>>>>>> upgraded packages to v2 devel branch & not working modifying key-less list in operational data
+=======
+>>>>>>> updated to v2 , all projects in devel branch & tested notification & modiying operational data not working(alarm list)
 )
 
 # functions
