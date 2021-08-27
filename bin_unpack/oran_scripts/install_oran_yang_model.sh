@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ORAN_MODULE_DIR=$1
+ORAN_MODULE_DIR="/home/M-Plane-Scripts/libruapp/oran_yang_model"
 ORAN_MODULE_PERMS=600
 MODULES_OWNER=$(id -un)
 MODULES_GROUP=$(id -gn)
@@ -79,18 +79,20 @@ MODULES=(
 "o-ran-dhcp@2020-12-10.yang"
 "o-ran-delay-management@2020-08-10.yang"
 "o-ran-supervision@2020-12-10.yang"
-"o-ran-fan@2019-07-03.yang"
 "o-ran-performance-management@2020-12-10.yang"
-"o-ran-laa-operations@2019-07-03.yang"
 "o-ran-sync@2020-08-10.yang"
-"o-ran-laa@2019-07-03.yang"
 "o-ran-software-management@2019-07-03.yang"
 "o-ran-uplane-conf@2020-12-10.yang"
 <<<<<<< HEAD
 >>>>>>> yang-models-installation
 =======
 "o-ran-fan@2019-07-03.yang"
+<<<<<<< HEAD
 >>>>>>> added raise alarm with simple adding alarm list & notififcation sending & before upgrading packages for delete list-instance bug
+=======
+"o-ran-fm@2019-02-04.yang"
+"o-ran-laa@2019-07-03.yang"
+>>>>>>> upgraded packages to v2 devel branch & not working modifying key-less list in operational data
 )
 
 # functions
