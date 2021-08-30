@@ -43,6 +43,7 @@ MODULES=(
 "ietf-tls-server@2019-07-02.yang -e local-client-auth-supported"
 "ietf-netconf-server@2019-07-02.yang -e ssh-listen -e tls-listen -e ssh-call-home -e tls-call-home"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ietf-subscribed-notifications@2019-09-09.yang -e encode-xml -e replay -e subtree -e xpath"
 "ietf-yang-push@2019-09-09.yang -e on-change"
 =======
@@ -53,6 +54,10 @@ MODULES=(
 "ietf-restconf@2017-01-26.yang"
 "ietf-subscribed-notifications@2019-09-09.yang"
 >>>>>>> yang-models-installation
+=======
+"ietf-subscribed-notifications@2019-09-09.yang -e encode-xml -e replay -e subtree -e xpath"
+"ietf-yang-push@2019-09-09.yang -e on-change"
+>>>>>>> library of v2 & working get,set,notification send & not working creating and modifying alarm list
 )
 
 # functions
