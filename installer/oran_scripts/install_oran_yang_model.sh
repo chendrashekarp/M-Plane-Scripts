@@ -29,17 +29,12 @@ GROUP=${NP2_MODULE_GROUP}
 
 # array of modules to install
 MODULES=(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Libraries v2 , userspace get,set,notification & alarm creation
 "iana-hardware.yang"
 "ietf-hardware.yang"
 "o-ran-wg4-features.yang"
 "o-ran-hardware.yang"
 "o-ran-file-management.yang"
 "o-ran-operations.yang"
-<<<<<<< HEAD
 "mplane-rpcs@2021-06-21.yang"
 "o-ran-ald-port.yang"
 "o-ran-ald.yang"
@@ -58,72 +53,6 @@ MODULES=(
 "o-ran-sync.yang"
 "o-ran-software-management.yang"
 "o-ran-fm.yang"
-=======
-"iana-hardware@2018-03-13.yang"
-"ietf-hardware@2018-03-13.yang"
-"o-ran-wg4-features@2020-12-10.yang"
-"o-ran-hardware@2020-12-10.yang"
-"ietf-netconf-acm@2018-02-14.yang"
-"ietf-crypto-types@2019-07-02.yang"
-"o-ran-file-management@2019-07-03.yang"
-"o-ran-operations@2020-12-10.yang"
-"mplane-rpcs@2021-06-21.yang"
-"o-ran-ald-port@2019-07-03.yang"
-"o-ran-ald@2019-07-03.yang"
-"o-ran-ves-subscribed-notifications@2020-12-10.yang"
-"iana-if-type@2017-01-19.yang"
-"o-ran-interfaces@2020-12-10.yang"
-"o-ran-processing-element@2020-04-17.yang"
-"o-ran-ecpri-delay@2019-02-04.yang"
-"o-ran-compression-factors@2020-08-10.yang"
-"o-ran-module-cap@2020-12-10.yang"
-"o-ran-troubleshooting@2019-02-04.yang"
-"o-ran-trace@2019-07-03.yang"
-"ietf-dhcpv6-types@2018-09-04.yang"
-"o-ran-dhcp@2020-12-10.yang"
-"o-ran-delay-management@2020-08-10.yang"
-"o-ran-supervision@2020-12-10.yang"
-"o-ran-fan@2019-07-03.yang"
-"o-ran-performance-management@2020-12-10.yang"
-"o-ran-sync@2020-08-10.yang"
-"o-ran-software-management@2019-07-03.yang"
-"o-ran-uplane-conf@2020-12-10.yang"
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> yang-models-installation
-=======
-"o-ran-fan@2019-07-03.yang"
-<<<<<<< HEAD
->>>>>>> added raise alarm with simple adding alarm list & notififcation sending & before upgrading packages for delete list-instance bug
-=======
-=======
->>>>>>> library of v2 & working get,set,notification send & not working creating and modifying alarm list
-"o-ran-fm@2019-02-04.yang"
-<<<<<<< HEAD
-"o-ran-laa@2019-07-03.yang"
->>>>>>> upgraded packages to v2 devel branch & not working modifying key-less list in operational data
-=======
->>>>>>> updated to v2 , all projects in devel branch & tested notification & modiying operational data not working(alarm list)
-=======
-"mplane-rpcs@2021-06-21.yang"
-"o-ran-ald-port.yang"
-"o-ran-ald.yang"
-"o-ran-ves-subscribed-notifications.yang"
-"iana-if-type.yang"
-"o-ran-interfaces.yang"
-"o-ran-compression-factors.yang"
-"o-ran-module-cap.yang"
-"o-ran-troubleshooting.yang"
-"o-ran-trace.yang"
-"ietf-dhcpv6-types.yang"
-"o-ran-dhcp.yang"
-"o-ran-delay-management.yang"
-"o-ran-supervision.yang"
-"o-ran-fan.yang"
-"o-ran-sync.yang"
-"o-ran-software-management.yang"
-"o-ran-fm.yang"
->>>>>>> Libraries v2 , userspace get,set,notification & alarm creation
 )
 
 # functions
