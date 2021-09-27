@@ -3,6 +3,7 @@ INSTALLER_DIR=$PWD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 apt-get update && apt-get install -y openssl libssl-dev vim python3-pip libpcre2-8-0 libpcre2-dev
 pip3 install pyang
 =======
@@ -12,6 +13,10 @@ apt-get update && apt-get install -y openssl libssl-dev vim python3-pip
 >>>>>>> Update install.sh
 pip install pyang
 >>>>>>> yang-models-installation
+=======
+apt-get update && apt-get install -y openssl libssl-dev vim python3-pip libpcre2-8-0 libpcre2-dev
+pip3 install pyang
+>>>>>>> with v2 release of netopeer2(supporing modules)
 
 echo "Copying library and headers"
 cp -rf $INSTALLER_DIR/usr/local/bin/sysrepo* /usr/local/bin/
@@ -36,16 +41,19 @@ if [ "x$1" == "x--server" ]; then
     echo "Installing ruapp and library"
     cp -rf $INSTALLER_DIR/mplane/build/ruapp /usr/local/bin/
     cp -rf $INSTALLER_DIR/mplane/build/libruapp.so /usr/lib/
-    cp -rf $INSTALLER_DIR/mplane/build/libruapp.so /usr/local/lib/
     echo "Running netopeer2 setup scripts"
     $INSTALLER_DIR/netopeer2_scripts/setup.sh && $INSTALLER_DIR/netopeer2_scripts/merge_hostkey.sh && $INSTALLER_DIR/netopeer2_scripts/merge_config.sh && rm -rf $INSTALLER_DIR/netopeer2_scripts
     echo "Running o-ran yang installation scripts"
     $INSTALLER_DIR/oran_scripts/install_oran_yang_model.sh $ORAN_MODULE_DIR && rm -rf $INSTALLER_DIR/oran_scripts
 <<<<<<< HEAD
+<<<<<<< HEAD
 	sysrepoctl -i /usr/local/share/yang/modules/netopeer2/oran_yang_model/o-ran-usermgmt.yang && sysrepocfg -W /tmp/mplane/state_data_xml/o-ran-user.xml -m o-ran-usermgmt -f "xml"
 =======
 	sysrepoctl -i /usr/local/share/yang/modules/netopeer2/oran_yang_model/o-ran-usermgmt\@2020-12-10.yang && sysrepocfg -W /tmp/mplane/state_data_xml/o-ran-user.xml -m o-ran-usermgmt -f "xml"
 >>>>>>> yang-models-installation
+=======
+	sysrepoctl -i /usr/local/share/yang/modules/netopeer2/oran_yang_model/o-ran-usermgmt.yang && sysrepocfg -W /tmp/mplane/state_data_xml/o-ran-user.xml -m o-ran-usermgmt -f "xml"
+>>>>>>> with v2 release of netopeer2(supporing modules)
     #echo 7 > /proc/sys/kernel/printk
     #echo 1 > /sys/bus/pci/rescan
     #insmod /lib/modules/4.19.90-rt35/extra/yami.ko scratch_buf_size=0x20000000 scratch_buf_phys_addr=0x2360000000
